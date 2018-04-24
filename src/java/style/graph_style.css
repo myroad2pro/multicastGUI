@@ -1,0 +1,58 @@
+node {
+	shape: box;
+	fill-mode: image-scaled; 
+	fill-image: url('/home/tuan/multicast/pc-gray.png');
+	size: 25px;
+	text-size: 12px;
+	text-alignment: at-left;
+	text-background-mode: rounded-box;
+	text-background-color: yellow;
+}
+
+node .switch {
+	fill-image: url('/home/tuan/multicast/sw.png');
+}
+
+node .switchroot {
+	fill-image: url('/home/tuan/multicast/sw-red.png');
+}
+
+node .hostsrc {
+	fill-image: url('/home/tuan/multicast/pc-red.png');
+}
+
+node .hostdst {
+	fill-image: url('/home/tuan/multicast/pc-violet.png');
+}
+
+node :clicked {
+	fill-color: green;
+	size: 40px;
+}
+
+edge {
+	fill-color: black;
+	size: 2px;
+	text-size: 12px;
+	text-background-mode: rounded-box;
+	text-background-color: white;
+}
+
+edge .marked {
+	fill-color: #fce94f;
+	size: 3px;
+}
+
+edge .mst{
+	fill-color: #cc0000;
+	size: 3px;
+}
+
+edge .multicast{
+	fill-color: green;
+	size: 3px;
+}
+
+graph {
+	fill-color: #FFFFCC;
+}

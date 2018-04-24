@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/gs-algo-1.2/gs-algo-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/gs-core-1.2/gs-core-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/gs-ui-1.2/gs-ui-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/tuan/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.googlecode.json-simple"/>
+			<attribute name="maven.artifactId" value="json-simple"/>
+			<attribute name="maven.version" value="1.1.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tuan/.m2/repository/commons-codec/commons-codec/1.8/commons-codec-1.8.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>
