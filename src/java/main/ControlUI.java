@@ -73,7 +73,7 @@ public class ControlUI extends JFrame implements ActionListener, MouseWheelListe
 
 	// Logic Variables
 	private MainLogic mLogic; 
-	private File graph_file = new File("/home/tuan/multicast/graph.txt");
+	private File graph_file = new File("../../../../graph.txt");
 
 	private  GraphUIProperty gUIProp;
 	private NodeClickListener clisten = null;

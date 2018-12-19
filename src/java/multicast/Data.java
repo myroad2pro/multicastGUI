@@ -44,14 +44,14 @@ public class Data {
 	}
 	public boolean writeData() {
 		boolean bol = true;
-		File folder = new File("/home/tuan/multicast");
+		File folder = new File("../../../..");
 		if (folder.exists() == false)
 			bol = folder.mkdirs();
 		if (bol == false) {
 			System.out.println("Error Directory");
 			return bol;
 		} else {
-			File file = new File("/home/tuan/multicast/graph.txt");
+			File file = new File("../../../../graph.txt");
 			if (file.exists() == true) {
 				file.delete();
 				try {

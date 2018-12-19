@@ -106,14 +106,14 @@ public class ScanTopology {
 
 	public boolean writeFileTopo() {
 		boolean bol = true;
-		File folder = new File("/home/tuan/multicast");
+		File folder = new File("../../../..");
 		if (folder.exists() == false)
 			bol = folder.mkdirs();
 		if (bol == false) {
 			System.out.println("Error Directory");
 			return bol;
 		} else {
-			File file = new File("/home/tuan/multicast/network.json");
+			File file = new File("../../../../network.json");
 			if (file.exists() == true) {
 				file.delete();
 				try {

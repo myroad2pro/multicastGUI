@@ -12,7 +12,7 @@ import org.json.simple.parser.ParseException;
 
 
 public class Topology {
-	private String topo = "/home/tuan/multicast/network.json";
+	private String topo = "../../../../network.json";
 	private ArrayList<Host> list_host;
 	private ArrayList<Switch> list_switch;
 	private ArrayList<Link> list_link;
